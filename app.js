@@ -1,6 +1,6 @@
 import * as THREE from '/sdk-v3-football/three.module.min.js';
 
-const SDK_VERSION = '3.0.0-next.6';
+const SDK_VERSION = '3.0.0-next.7';
 const canvas = document.querySelector('#game');
 const score = document.querySelector('#score');
 const time = document.querySelector('#time');

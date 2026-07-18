@@ -37,7 +37,7 @@ describe('Mini Football release', () => {
       readFile(new URL('../app.js', import.meta.url), 'utf8'),
       readFile(new URL('../server.bundle.js', import.meta.url), 'utf8'),
     ]);
-    assert.match(html, /https:\/\/usions\.com\/sdk\/v3\/3\.0\.0-next\.6\/usion-sdk\.js/);
+    assert.match(html, /https:\/\/usions\.com\/sdk\/v3\/3\.0\.0-next\.7\/usion-sdk\.js/);
     assert.match(app, /game\.sendInput/);
     assert.match(app, /game\.onSnapshot/);
     assert.match(bundle, /tickHz:\s*30,\s*snapshotHz:\s*30/);
