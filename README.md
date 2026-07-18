@@ -36,12 +36,17 @@ npm test
 ## Deploy
 
 `railway.json` contains the Railway health check and restart policy. The
-production Railway service is connected to this repository's `main` branch.
+`usion-mini-football / mini-football` Railway service is connected to this
+repository's `main` branch and runs in Southeast Asia.
 
 The registered Usion service uses:
 
-- iframe URL: `https://<railway-domain>/index.html`
-- server bundle URL: `https://<railway-domain>/server.bundle.js`
+- iframe URL:
+  <https://mini-football-production-5dd9.up.railway.app/index.html>
+- server bundle URL:
+  <https://mini-football-production-5dd9.up.railway.app/server.bundle.js>
+- health URL:
+  <https://mini-football-production-5dd9.up.railway.app/health>
 
 Three.js is vendored for predictable loading; its license is in
 `THREE-LICENSE.txt`.
