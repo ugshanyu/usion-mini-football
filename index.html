@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <title>Mini Football</title>
+  <link rel="stylesheet" href="/sdk-v3-football/styles.css">
+  <script src="https://usions.com/sdk/v3/3.0.0-next.6/usion-sdk.js"></script>
+</head>
+<body>
+  <canvas id="game"></canvas>
+  <div id="score" aria-live="polite">0 — 0</div>
+  <div id="time">Waiting</div>
+  <div id="status">Connecting…</div>
+  <div id="stick" aria-label="Movement control"><div id="knob"></div></div>
+  <button id="kick" type="button" aria-label="Kick">●</button>
+  <script type="module" src="/sdk-v3-football/app.js"></script>
+</body>
+</html>
